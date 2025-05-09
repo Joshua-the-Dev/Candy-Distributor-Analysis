@@ -37,4 +37,8 @@ The dataset includes the following tables:
 - USZIPS - Columns in this table are Zip, Lat, Lng, City, State_ID, State_Name, Population, Density, Country_Fips, and Country_Name.
 
 # DATA PREPROCESSING
-- Data Cleaning and Preprocessing
+- Data Cleaning -
+- Data Preprocessing -
+
+# EXPLORATORY DATA ANALYSIS (EDA)
+
