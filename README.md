@@ -1,2 +1,12 @@
-# Candy-Distributor-Analysis
-Developed data-driven solutions for a U.S. national candy distributor, focusing on visualizing and analyzing factory-to-customer shipment flows.
+# Candy Distributor Analysis
+# TABLE OF CONTENT
+- CANDY DISTRIBUTOR - OVERVIEW
+- OBJECTIVES OF THE ANALYSIS
+- TOOLS USED
+- DATA SOURCE
+- DESCRIPTION OF RAW DATA
+- DATA PREPROCESSING
+- EXPLORATORY DATA ANALYSIS (EDA)
+- DATA VISUALIZATION
+- INSIGHTS
+- RECOMMENDATIONS
