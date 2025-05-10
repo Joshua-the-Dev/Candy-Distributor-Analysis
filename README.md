@@ -41,6 +41,11 @@ The dataset includes the following tables:
   * Rounded all numerical value columns to two decimal places for consistency.
   * Removed an empty column from the dataset.
   * Eliminated less than 1% of missing values in columns unrelated to the project's objectives.
+- Data Modelling -
+  * Established accurate and efficient relationships between fact and dimension tables to ensure data integrity and enable reliable analysis across all business metrics.
+
+<img width="959" alt="Screenshot 2025-05-10 183452" src="https://github.com/user-attachments/assets/36ffe692-0aaa-4017-9cac-d64abb9c2178" />
+
 
 # EXPLORATORY DATA ANALYSIS (EDA)
 - During the EDA phase of the project, key performance indicators (KPIs) were identified and analyzed to better understand the sales data. Highlights include:
@@ -49,12 +54,36 @@ The dataset includes the following tables:
   * Gross Profit: $93,442.80
   * Average Waiting Time: 65.84 months (~5.64 years)
 
-- Order Period: A new column Order_Period was created to calculate the time between the order date and ship date in years:
+- Order Period: A new column named Order_Period was created to calculate the time difference between the order date and ship date, measured in years. The Data Analysis Expressions(DAX) formula used is: 
   Order_Period = DATEDIFF(Candy_Sales[Order Date], Candy_Sales[Ship Date], YEAR)
 
-  Product Margin: A calculated field Product_Margin was introduced to measure profitability as a percentage:
+- Product Margin: A new measure named Product_Margin was created to calculate profitability as a percentage. The DAX formula used is:
   Product_Margin = ([Total_Gross_Profit] / [Total_Sales]) * 100
 
-  # DATA VIAUALIZAION-
+<img width="960" alt="Screenshot 2025-05-10 182845" src="https://github.com/user-attachments/assets/e24c5f73-a84d-4b59-9a19-ee8623ae752d" />
+
+
+  # DATA VIAUALIZAION
+
+
+ 
   # INSIGHTS
+The analysis revealed the following key findings:
+- Most Efficient Shipping Route:
+  * Shipping from the Lot's O' Nuts factory using the Standard Class shipping method proved to be the most effective. This route handled the majority of orders and generated the highest sales overall.
+  * The Wicked Choccy factory also demonstrated strong performance when using the Standard Class shipping mode, making it another efficient option.
+- Least Efficient Shipping Route:
+  * Orders shipped from the Sugar Shack factory via Same Day delivery were the least efficient. This route was the least utilized and resulted in the lowest sales figures.
+- Product Line Margins:
+  * The Sugar division had the highest product margin at 68.10%, closely followed by the Chocolate division at 67.45%.
+- Sales Trends:
+  * The United States accounted for the highest sales, totaling $138.83K, significantly outperforming Canada, which recorded $2.95K in sales.
+  * Sales consistently increased throughout the year, with December showing the highest sales between 2021 and 2024. Conversely, the beginning of each year typically saw the lowest sales activity.
+  
   # RECOMMENDATIONS
+  Based on the analysis, the following actions are recommended:
+  - Optimize Factory Allocation: Consider relocating the Sugar and Other product divisions to either the Lot's O' Nuts or Wicked Choccy factories to take advantage of more efficient shipping routes and improve overall logistics.
+  - Expand Canadian Market Presence: With established shipping routes between the U.S. and Canada, marketing efforts or targeted promotions should be introduced to increase brand awareness and customer engagement in the Canadian market.
+  - Boost Early-Year Sales: Implement calculated discounts or promotional campaigns at the beginning of each year to counteract the seasonal dip in sales typically seen during this period.
+  - Reduce Order-to-Ship Time: Investigate the causes of the current high average waiting time between order placement and shipping. Operational improvements should be made to streamline this process and enhance customer satisfaction.
+  - Review Underperforming Factories: Analyze the low order volumes from the Secret Factory, The Other Factory, and Sugar Shack. Based on findings, either reallocate production to more in-demand products or consider phasing out underutilized facilities to optimize resource use.
