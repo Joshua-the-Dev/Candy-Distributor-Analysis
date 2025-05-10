@@ -63,7 +63,7 @@ The dataset includes the following tables:
 <img width="960" alt="Screenshot 2025-05-10 182845" src="https://github.com/user-attachments/assets/e24c5f73-a84d-4b59-9a19-ee8623ae752d" />
 
 
-  # DATA VIAUALIZAION
+  # DATA VISUALIZAION
 
 <img width="587" alt="Screenshot 2025-05-10 184529" src="https://github.com/user-attachments/assets/1428c466-c483-474c-a226-57f4db7cdc67" />
 
