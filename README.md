@@ -65,8 +65,10 @@ The dataset includes the following tables:
 
   # DATA VIAUALIZAION
 
+<img width="587" alt="Screenshot 2025-05-10 184529" src="https://github.com/user-attachments/assets/1428c466-c483-474c-a226-57f4db7cdc67" />
 
- 
+<img width="588" alt="Screenshot 2025-05-10 184646" src="https://github.com/user-attachments/assets/3a1018a8-2ae3-4e43-a180-2dc295b859f3" />
+
   # INSIGHTS
 The analysis revealed the following key findings:
 - Most Efficient Shipping Route:
