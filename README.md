@@ -37,8 +37,24 @@ The dataset includes the following tables:
 - USZIPS - Columns in this table are Zip, Lat, Lng, City, State_ID, State_Name, Population, Density, Country_Fips, and Country_Name.
 
 # DATA PREPROCESSING
-- Data Cleaning -
-- Data Preprocessing -
+- Data Transformation -
+  * Rounded all numerical value columns to two decimal places for consistency.
+  * Removed an empty column from the dataset.
+  * Eliminated less than 1% of missing values in columns unrelated to the project's objectives.
 
 # EXPLORATORY DATA ANALYSIS (EDA)
+- During the EDA phase of the project, key performance indicators (KPIs) were identified and analyzed to better understand the sales data. Highlights include:
+  * Total Orders: 8,549
+  * Total Sales: $141,783.63
+  * Gross Profit: $93,442.80
+  * Average Waiting Time: 65.84 months (~5.64 years)
 
+- Order Period: A new column Order_Period was created to calculate the time between the order date and ship date in years:
+  Order_Period = DATEDIFF(Candy_Sales[Order Date], Candy_Sales[Ship Date], YEAR)
+
+  Product Margin: A calculated field Product_Margin was introduced to measure profitability as a percentage:
+  Product_Margin = ([Total_Gross_Profit] / [Total_Sales]) * 100
+
+  # DATA VIAUALIZAION-
+  # INSIGHTS
+  # RECOMMENDATIONS
