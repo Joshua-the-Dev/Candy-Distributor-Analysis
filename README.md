@@ -63,13 +63,13 @@ The dataset includes the following tables:
 <img width="960" alt="Screenshot 2025-05-10 182845" src="https://github.com/user-attachments/assets/e24c5f73-a84d-4b59-9a19-ee8623ae752d" />
 
 
-  # DATA VISUALIZAION
+# DATA VISUALIZAION
 
 <img width="587" alt="Screenshot 2025-05-10 184529" src="https://github.com/user-attachments/assets/1428c466-c483-474c-a226-57f4db7cdc67" />
 
 <img width="588" alt="Screenshot 2025-05-10 184646" src="https://github.com/user-attachments/assets/3a1018a8-2ae3-4e43-a180-2dc295b859f3" />
 
-  # INSIGHTS
+# INSIGHTS
 The analysis revealed the following key findings:
 - Most Efficient Shipping Route:
   * Shipping from the Lot's O' Nuts factory using the Standard Class shipping method proved to be the most effective. This route handled the majority of orders and generated the highest sales overall.
@@ -81,11 +81,11 @@ The analysis revealed the following key findings:
 - Sales Trends:
   * The United States accounted for the highest sales, totaling $138.83K, significantly outperforming Canada, which recorded $2.95K in sales.
   * Sales consistently increased throughout the year, with December showing the highest sales between 2021 and 2024. Conversely, the beginning of each year typically saw the lowest sales activity.
-  
-  # RECOMMENDATIONS
-  Based on the analysis, the following actions are recommended:
-  - Optimize Factory Allocation: Consider relocating the Sugar and Other product divisions to either the Lot's O' Nuts or Wicked Choccy factories to take advantage of more efficient shipping routes and improve overall logistics.
-  - Expand Canadian Market Presence: With established shipping routes between the U.S. and Canada, marketing efforts or targeted promotions should be introduced to increase brand awareness and customer engagement in the Canadian market.
-  - Boost Early-Year Sales: Implement calculated discounts or promotional campaigns at the beginning of each year to counteract the seasonal dip in sales typically seen during this period.
-  - Reduce Order-to-Ship Time: Investigate the causes of the current high average waiting time between order placement and shipping. Operational improvements should be made to streamline this process and enhance customer satisfaction.
-  - Review Underperforming Factories: Analyze the low order volumes from the Secret Factory, The Other Factory, and Sugar Shack. Based on findings, either reallocate production to more in-demand products or consider phasing out underutilized facilities to optimize resource use.
+
+# RECOMMENDATIONS
+Based on the analysis, the following actions are recommended:
+- Optimize Factory Allocation: Consider relocating the Sugar and Other product divisions to either the Lot's O' Nuts or Wicked Choccy factories to take advantage of more efficient shipping routes and improve overall logistics.
+- Expand Canadian Market Presence: With established shipping routes between the U.S. and Canada, marketing efforts or targeted promotions should be introduced to increase brand awareness and customer engagement in the Canadian market.
+- Boost Early-Year Sales: Implement calculated discounts or promotional campaigns at the beginning of each year to counteract the seasonal dip in sales typically seen during this period.
+- Reduce Order-to-Ship Time: Investigate the causes of the current high average waiting time between order placement and shipping. Operational improvements should be made to streamline this process and enhance customer satisfaction.
+- Review Underperforming Factories: Analyze the low order volumes from the Secret Factory, The Other Factory, and Sugar Shack. Based on findings, either reallocate production to more in-demand products or consider phasing out underutilized facilities to optimize resource use.
